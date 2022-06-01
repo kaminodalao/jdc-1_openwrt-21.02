@@ -20,6 +20,8 @@ on:
 #     - cron: 0 18 * * 1
    watch:
      types: started
+   workflow_dispatch:
+
   
 env:
   REPO_URL: https://github.com/openwrt/openwrt
